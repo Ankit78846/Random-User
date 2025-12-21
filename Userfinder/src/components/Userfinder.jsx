@@ -33,7 +33,8 @@ const Userfinder = () => {
         <>
           <img src={user.picture.large} alt="user" />
           <h3>
-            {user.name.title} {user.name.first} {user.name.last}
+                {   user.gender}  {user.name.title} {user.name.first} {user.name.last}
+   
           </h3>
           <p>{user.email}</p>
           <p>{user.location.country}</p>

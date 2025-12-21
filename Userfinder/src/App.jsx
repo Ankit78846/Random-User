@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Userfinder from './components/Userfinder'
 import QuotesGen from './components/QuotesGen'
+import RecipeFinder from './components/RecipeFinder'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Userfinder />
       <QuotesGen />
+      <RecipeFinder/>
     </>
   )
 }

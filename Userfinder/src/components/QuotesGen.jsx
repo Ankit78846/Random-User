@@ -11,8 +11,9 @@ const QuotesGen = () => {
       setLoading(true);
       const response = await fetch("https://dummyjson.com/quotes/random");
       const data = await response.json();
-      setQuote(data.quote);console.log(data);
+      setQuote(data.quote);
       setAuthor(data.author);
+      console.log(data);
     } catch (error) {
       setQuote("Failed to load quote");
       setAuthor("");
