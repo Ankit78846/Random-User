@@ -5,6 +5,8 @@ import './App.css'
 import Userfinder from './components/Userfinder'
 import QuotesGen from './components/QuotesGen'
 import RecipeFinder from './components/RecipeFinder'
+import YoutubeMediaDownloader from './components/YoutubeMediaDownloader'
+import YMDownloader from './components/YMDownloader'
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
       <Userfinder />
       <QuotesGen />
       <RecipeFinder/>
+      <YoutubeMediaDownloader />
+      <YMDownloader/>
     </>
   )
 }

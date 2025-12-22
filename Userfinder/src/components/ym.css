@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+.yd-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.yd-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.yd-input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.yd-input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.yd-input:focus {
+  border-color: #ff0000;
+}
+
+.yd-btn {
+  padding: 12px 20px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.yd-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.yd-result {
+  margin-top: 30px;
+}
+
+.yd-thumb {
+  width: 100%;
+  max-width: 360px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.yd-desc {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.yd-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.yd-download-btn {
+  padding: 12px;
+  background: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.yd-download-btn:hover {
+  background: #374151;
+}
